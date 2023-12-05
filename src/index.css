@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: 'Karla','Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #bebcbc;
+  display: flex;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  width: 550px;
+  height: 550px;
+  background: #FFFFFF;
+  margin-top: 20px;
+}
+
+/*Header*/
+.Header{
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  width: 550px;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.Logo{
+  width: 31.31px;
+  height: 26.22px;
+  left: 20px;
+  top: 19px;
+  margin-left: 20px;
+  margin-top: 19px;
+}
+.Header-text{
+  display: flex;
+  justify-content: space-between;
+}
+.text1{
+  margin-top: 20px;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+}
+.text2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #FFFFFF;
+  margin: 25px 36px 26px 160px;
+}
+/*Form*/
+.Form{
+  display: flex;
+  margin-top: 36px;
+}
+.Form-input{
+    width: 230px;
+    height: 35px;
+    left: 36px;
+    top: 101px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    margin-left: 36px;
+    margin-right: 17px;
+}
+.Form-input2{
+    width: 230px;
+    height: 35px;
+    left: 283px;
+    top: 101px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    margin-right: 36px;
+}
+.Get-meme{
+    margin-top: 17px;
+    margin-left: 36px;
+    width: 477px;
+    height: 40px;
+    left: 36px;
+    top: 151px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Button-text{
+    margin: 9px 156px 12px 155px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.01em; 
+    color: #FFFFFF;
+}
+.MEMES{
+    width: 477px;
+    height: 268px;
+    margin-left: 36px;
+    margin-top: 36px;
+}
+.memetext{
+  position: relative;
+}
+.memetext-top{
+  position: absolute;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  margin-left: 230px;
+  margin-top: -268px;
+  margin-right: 194px;
+  color: #FFFFFF;
+}
+.memetext-bottom{
+  position: absolute;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  margin-left: 230px;
+  margin-top: -80px;
+  margin-right: 194px;
+  color: #FFFFFF;
+}
